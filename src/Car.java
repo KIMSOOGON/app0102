@@ -1,6 +1,5 @@
 
-public class Car {
-	public int price;
+public class Car extends Product {
 	public void start() {
 		System.out.println("출발");
 	}
